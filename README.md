@@ -3,6 +3,9 @@
 
 Welcome to the YouTube Channel Monitoring project! This project is designed to help content creators and channel managers keep track of important metrics and activities to assess their YouTube channel's performance and engagement.
 
+**Please note that this project is currently under development, and some features may not be fully functional.**
+
+
 ## Project Overview
 
 The YouTube Channel Monitoring project allows users to monitor various aspects of their YouTube channel, including subscriber count, video views, likes and dislikes, comments, shares, and more. By tracking these metrics, users can gain valuable insights into their channel's performance and make data-driven decisions to improve their content.
@@ -61,11 +64,9 @@ To get started with the YouTube Channel Monitoring project, follow these steps:
 
 We welcome contributions from the open-source community! If you have any ideas, bug fixes, or improvements, please feel free to open an issue or submit a pull request.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
 
 Happy monitoring and content creation!
 
 
-***************************** this project is still in progress ***********************************
+
