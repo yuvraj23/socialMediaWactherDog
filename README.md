@@ -3,7 +3,7 @@
 
 Welcome to the YouTube Channel Monitoring project! This project is designed to help content creators and channel managers keep track of important metrics and activities to assess their YouTube channel's performance and engagement.
 
-**Please note that this project is currently under development, and some features may not be fully functional.**
+**Please note that this project is currently under development, and some features may not be fully functional.** (only 20% have been developed)
 
 
 ## Project Overview
