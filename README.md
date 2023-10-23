@@ -48,21 +48,6 @@ Here are some of the key features of the YouTube Channel Monitoring project:
 
 17. **Viewer Engagement**: Host Q&A sessions, live chats, or contests to interact with your audience.
 
-## Getting Started
-
-To get started with the YouTube Channel Monitoring project, follow these steps:
-
-1. Clone this repository to your local machine using `git clone`.
-
-2. Install the necessary dependencies using `npm install` or `yarn install`.
-
-3. Configure the project by adding your YouTube channel's API keys and settings.
-
-4. Run the project using `npm start` or `yarn start`.
-
-## Contributing
-
-We welcome contributions from the open-source community! If you have any ideas, bug fixes, or improvements, please feel free to open an issue or submit a pull request.
 
 
 
