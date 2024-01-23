@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from account.models import User
+from account.models import User,YoutubeConfig
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 
 class UserModelAdmin(BaseUserAdmin):
@@ -32,6 +32,12 @@ class UserModelAdmin(BaseUserAdmin):
 
 # Now register the new UserModelAdmin...
 admin.site.register(User, UserModelAdmin)
+
+
+class YoutubeConfigAdmin(admin.ModelAdmin):
+    list_display = ('user', 'api_key', 'channel_id','created_at')  # Add the fields you want to display in the list view
+
+admin.site.register(YoutubeConfig, YoutubeConfigAdmin)
 
 
 

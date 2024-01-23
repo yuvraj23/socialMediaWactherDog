@@ -1,3 +1,5 @@
+from django.utils import timezone
+
 from django.db import models
 from django.contrib.auth.models import BaseUserManager, AbstractBaseUser
 
@@ -72,3 +74,14 @@ class User(AbstractBaseUser):
         "Is the user a member of staff?"
         # Simplest possible answer: All admins are staff
         return self.is_admin
+    
+
+class YoutubeConfig(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    api_key = models.CharField(max_length=255)
+    channel_id = models.CharField(max_length=255)
+    created_at = models.DateTimeField(default=timezone.now, editable=False)
+
+
+    def __str__(self):
+        return f"{self.user.name}'s YouTube Config"
